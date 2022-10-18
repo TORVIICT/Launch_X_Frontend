@@ -14,35 +14,113 @@
 <!--Visualizacion de sabores-->
     <h2>Sabores</h2>
 
-    <label for="Chocolate">Chocolate - Precio: $30USD</label><br>
-    <img src="https://www.recetasjudias.com/wp-content/uploads/2020/09/El-mejor-Pastel-de-Chocolate-1HERSHEY%C2%B4S.jpg" alt="Chocolate" width="250px" height="150px" id="Chocolate"><br>
-    
-    <label for="Vainilla">Vainilla - Precio: $25USD</label><br>
-    <img src="http://www.guiaderecetas.com/static/images/receta/torta-de-vainilla.jpg" alt="Vainilla" width="250px" height="150px" id="Vainilla"><br>
+    <table>
+        <tr>
+            <th>Chocolate</th>
+            <th>Vainilla</th>
+            <th>Fresa</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://www.recetasjudias.com/wp-content/uploads/2020/09/El-mejor-Pastel-de-Chocolate-1HERSHEY%C2%B4S.jpg" alt="Chocolate" width="250px" height="150px" id="Chocolate"><br>
+                <label for="Chocolate">Precio------$30USD</label><br>
+            </td>
 
-    <label for="Fresa">Fresa - Precio: $20USD</label><br>
-    <img src="https://t2.rg.ltmcdn.com/es/posts/8/0/4/tarta_de_fresa_y_nata_sin_horno_60408_600.jpg" alt="Fresa" width="250px" height="150px" id="Fresa"><br>
+            <td>
+                <img src="http://www.guiaderecetas.com/static/images/receta/torta-de-vainilla.jpg" alt="Vainilla" width="250px" height="150px" id="Vainilla"><br>
+                <label for="Vainilla">Precio------$25USD</label><br>
+            </td>
+
+            <td>
+                <img src="https://t2.rg.ltmcdn.com/es/posts/8/0/4/tarta_de_fresa_y_nata_sin_horno_60408_600.jpg" alt="Fresa" width="250px" height="150px" id="Fresa"><br>
+                <label for="Fresa">Precio------$25USD</label><br>
+            </td>
+        </tr>
+      
+    </table>
 
 
 <!--Visualizacion de sabores-->
-    <h2>Decoraciones</h2>
+<h2>Decoraciones</h2>
 
-    <label for="unicornio">Decoracion de unicornio - Precio: $30USD</label><br>
-    <img src="https://images-na.ssl-images-amazon.com/images/I/719hX7nUHPL._AC_UL600_SR600,400_.jpg" alt="unicornio" width="250px" height="150px" id="unicornio"><br>
+
+    <table>
+        <tr>
+            <th>Decoracion de unicornio</th>
+            <th>Decoracion minecraft</th>
+            <th>Decoracion infantil </th>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/719hX7nUHPL._AC_UL600_SR600,400_.jpg" alt="unicornio" width="250px" height="150px" id="unicornio"><br>
+                <label for="unicornio">Precio------$30USD</label><br>
+            </td>
+
+            <td>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/71rwF5pmmbL._AC_UL600_SR600,400_.jpg" alt="minecraft" width="250px" height="150px" id="minecraft"><br>
+                <label for="minecraft">Precio------$25USD</label><br>
+            </td>
+
+            <td>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61eH0bj8zmL._AC_UL300_SR300,200_.jpg" alt="infantil" width="250px" height="150px" id="infantil"><br>
+                <label for="infantil">Precio------$20USD</label><br>
+            </td>
+        </tr>
+      
+    </table><br>
+
+
+    <h2>PEDIDOS</h2>
+    <h3>Haz tu pedido aqui 👇</h3>
+
+<!--FORMULARIO PEDIDO-->
+
+    <form>
+
+        <h3>Sabor</h3>
+        
+        <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+        <label for="chocolate">Chocolate</label><br>
+
+        <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+        <label for="vainilla">Vainilla</label><br>
+
+        <input type="checkbox" id="fresa"  name="fresa" value="fresa">
+        <label for="fresa">Fresa</label><br>
+
+
+        <h3>Decoraciones</h3>
+        
+        <input type="checkbox" id="unicornio" name="unicornio" value="unicornio">
+        <label for="unicornio">Unicornio</label><br>
+
+        <input type="checkbox" id="minecraft" name="minecraft" value="minecraft">
+        <label for="minecraft">Minecraft</label><br>
+
+        <input type="checkbox" id="infantil"  name="infantil" value="infantil">
+        <label for="infantil">Infantil</label><br>
+
+        <h3>Informacion</h3><br>
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="tel1">Input de Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+        <label for="direccion">Direccion:</label><br>
+        <input type="text" id="direccion" name="direccion"><br><br>
+
+        <label for="cantidad">Cantidad</label><br>
+        <input type="number" id="cantidad" name="cantidad"><br><br>
+
+        <input type="submit" value="Comprar">
+        <input type="reset" value="borrar pedido" >
+
     
-    <label for="minecraft">Decoracion minecraft - Precio: $25USD</label><br>
-    <img src="https://images-na.ssl-images-amazon.com/images/I/71rwF5pmmbL._AC_UL600_SR600,400_.jpg" alt="minecraft" width="250px" height="150px" id="minecraft"><br>
+    </form>
 
-    <label for="infantil">Decoracion infantil - Precio: $20USD</label><br>
-    <img src="https://images-na.ssl-images-amazon.com/images/I/61eH0bj8zmL._AC_UL300_SR300,200_.jpg" alt="infantil" width="250px" height="150px" id="infantil"><br>
-
-
-
-asd
     
-
-
-
 
 
 </body>
