@@ -27,24 +27,12 @@ El cliente ideal del proyecto, que aqui se representa como el abogado jefe de la
 
 ## **3. Publico Objetivo.**
 
-los posibles usuarios del servicio.
-
-
+https://miro.com/app/board/uXjVPNt5Ars=/?share_link_id=454004744933
 
 ## **4. UI.**
-Para el inicio de la pagina.
+
+Para el inicio de la pagina, inicia la sesion, registro de un nuevo usuario, Interfaz de usuario, Interfaz de admin Y Sistema de pagos.
+
+https://www.figma.com/file/aiMpxNxaJxAaXINkqp6TFf/ABOGABOT?node-id=0%3A1
 
 
-Menu en donde se inicia la sesion.
-
-
-Interfaz para registro de un nuevo usuario.
-
-
-Interfaz de usuario.
-
-
-Interfaz de admin.
-
-
-Sistema de pagos.
