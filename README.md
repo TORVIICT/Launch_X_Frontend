@@ -21,8 +21,11 @@ El cliente solicita una plataforma en la cual se automatizan los procesos de dem
 
 
 ## **2. Buyer Persona.**
-El cliente ideal del proyecto, que aqui se representa como el abogado jefe de la firma de abogados.
+El cliente ideal del proyecto, que aqui se representa como un abogado y una empleada de aseo.
 
+![2 -persona_pages-to-jpg-0001](https://user-images.githubusercontent.com/90350471/196809075-104baa76-2e56-4455-b65d-e6b8010b4cfa.jpg)
+
+![2 -persona - copia_page-0001](https://user-images.githubusercontent.com/90350471/196809088-7d892910-a050-421d-b1f4-a78d6d6bd459.jpg)
 
 
 ## **3. Publico Objetivo.**
