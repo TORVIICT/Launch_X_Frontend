@@ -18,6 +18,7 @@ El cliente solicita una plataforma en la cual se automatizan los procesos de dem
 - Recibir pagos y ver la cantidad de ingresos recibidos.
 - Actualizar el proceso de la demanda y agregar comentarios en cada paso del proceso.
 
+![image](https://user-images.githubusercontent.com/90350471/197064694-00924e28-9843-4458-83f9-b86a0e064ed2.png)
 
 
 ## **2. Buyer Persona.**
