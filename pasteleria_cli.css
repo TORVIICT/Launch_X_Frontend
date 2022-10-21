@@ -1,5 +1,13 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
 }
 
 footer{
@@ -7,16 +15,40 @@ footer{
     height: 130px;
     text-align: center;
 }
+
+
 h1{
     background-color: antiquewhite;
-    height: 100px;
+    height: 200px;
     text-align:center;
     font-size: 70px;
-    color:lightpink
+    color:lightpink;
 
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+
+.tabla_sabores{
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+.tabla_decoraciones{
+    margin-left: 500px;
+    margin-bottom: 50px;
 }
 
 form{
     text-align: center;
     background-color: azure;
+    padding-bottom: 20px;
+    margin-right: 600px;
+    margin-left: 600px;
+    margin-bottom: 60px;
+
 }
