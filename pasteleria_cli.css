@@ -17,30 +17,41 @@ footer{
 }
 
 
+img{
+    width: 150px;
+    height: 150px;
+}
+
 h1{
     background-color: antiquewhite;
-    height: 200px;
-    text-align:center;
+    height: 100px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 50px;
     font-size: 70px;
     color:lightpink;
-
+    text-align: center;
+    border-radius: 50px;
 }
 
 h2{
     font-size: 40px;
     margin-left: 400px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 
 .tabla_sabores{
     margin-left: 500px;
     margin-bottom: 50px;
+    background-color: azure;
 }
 
 .tabla_decoraciones{
     margin-left: 500px;
     margin-bottom: 50px;
+    display: flex;
+    padding-bottom: 50px;
 }
 
 form{
@@ -50,5 +61,8 @@ form{
     margin-right: 600px;
     margin-left: 600px;
     margin-bottom: 60px;
+    border-radius: 30px;
 
 }
+
+
