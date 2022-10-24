@@ -48,7 +48,7 @@ h2{
 .tabla_sabores{
     margin-left: 500px;
     margin-bottom: 50px;
-    background-color: azure;
+    
 }
 
 .tabla_decoraciones{
@@ -62,8 +62,8 @@ form{
     text-align: center;
     background-color: azure;
     padding-bottom: 20px;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin-right: 300px;
+    margin-left: 300px;
     margin-bottom: 60px;
     border-radius: 30px;
 
