@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+footer{
+    background-color:antiquewhite;
+    text-align: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+table{
+    width: 100%;
+  }
+
+td{
+    height: 100%;
+}
+
+.titulo{
+    display: flex;
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+h1{
+    background-color: antiquewhite;
+    width: 1000px;
+    margin-top: 20px;
+    height: 110px;
+    font-size: 70px;
+    color:lightpink;
+    text-align: center;
+    border-radius: 50px;
+    justify-items: center;
+    justify-content: center;
+}
