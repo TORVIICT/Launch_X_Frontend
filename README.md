@@ -1,6 +1,7 @@
-# # ABOGABOT.
+#  ABOGABOT.
 
 ## **1. Toma de requerimentos.**
+
 El cliente solicita una plataforma en la cual se automatizan los procesos de demandas de sus clientes, atravez de una pagina web que se pueda acceder mediante un mobil o una computadora.
 
 ***UX cliente***
@@ -17,6 +18,10 @@ El cliente solicita una plataforma en la cual se automatizan los procesos de dem
 - Recibir notificaciones.
 - Recibir pagos y ver la cantidad de ingresos recibidos.
 - Actualizar el proceso de la demanda y agregar comentarios en cada paso del proceso.
+
+***Diseño***
+- Diseño responsive para mejor visualizacion en Moviles.
+- Paleta de color Azul mariono y blanco (Abierto a sugerencias).
 
 ![image](https://user-images.githubusercontent.com/90350471/197064694-00924e28-9843-4458-83f9-b86a0e064ed2.png)
 
