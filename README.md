@@ -23,6 +23,7 @@ El cliente solicita una plataforma en la cual se automatizan los procesos de dem
 - Diseño responsive para mejor visualizacion en Moviles.
 - Paleta de color Azul mariono y blanco (Abierto a sugerencias).
 
+![image](https://user-images.githubusercontent.com/90350471/198666600-7cdcea8c-c87a-4f80-b8c9-023dc0cf8369.png)
 
 
 ## **2. Buyer Persona.**
