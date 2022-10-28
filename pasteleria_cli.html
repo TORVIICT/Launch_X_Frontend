@@ -11,36 +11,24 @@
 
     <div class="titulo">
         <img src="LOGO-PASTELERIA.png" alt="Logo" class="logo">
-    <h1>Pasteleria</h1>
+    <h1>Pasteleria<br><section class="barra"><a href="#">INICIO</a><a href="#">MENU</a><a href="#">INFORMACION</a><a href="#">PEDIDOS</a></section></h1>
     </div>
 
 <!--Visualizacion de sabores-->
     <h2>Sabores</h2>
     <section class="tabla_sabores">
-    <table>
-        <tr>
-            <th>Chocolate</th>
-            <th>Vainilla</th>
-            <th>Fresa</th>
-        </tr>
-        <tr>
-            <td>
-                <img src="https://www.recetasjudias.com/wp-content/uploads/2020/09/El-mejor-Pastel-de-Chocolate-1HERSHEY%C2%B4S.jpg" alt="Chocolate" width="250px" height="150px" id="Chocolate"><br>
-                <label for="Chocolate">Precio------$30USD</label><br>
-            </td>
-
-            <td>
-                <img src="http://www.guiaderecetas.com/static/images/receta/torta-de-vainilla.jpg" alt="Vainilla" width="250px" height="150px" id="Vainilla"><br>
-                <label for="Vainilla">Precio------$25USD</label><br>
-            </td>
-
-            <td>
-                <img src="https://t2.rg.ltmcdn.com/es/posts/8/0/4/tarta_de_fresa_y_nata_sin_horno_60408_600.jpg" alt="Fresa" width="250px" height="150px" id="Fresa"><br>
-                <label for="Fresa">Precio------$25USD</label><br>
-            </td>
-        </tr>
-      
-    </table>
+        <div class="containerSabores">
+            <ul class="menu">
+              <li>Pastel de vainilla ............ $20</li>
+              <li>Pastel de chocolate ........ $30</li>
+              <li>Pastel de fresa ............... $20</li>
+              <li>Pastel de mora ............... $20</li>
+              <li>Pastel de frambuesa ........$25</li>
+              <li>Pastel de manzana ....    .... $20</li>
+              <li>Pastel tres leches ............ $50</li>
+            </ul>
+            <img class="imgPastel"src="https://www.recetasjudias.com/wp-content/uploads/2020/09/El-mejor-Pastel-de-Chocolate-1HERSHEY%C2%B4S.jpg"/>
+        </div>
 </section>
 
 
@@ -48,30 +36,20 @@
 <h2>Decoraciones</h2>
 
 <section class="tabla_decoraciones">
-    <table>
-        <tr>
-            <th>Decoracion de unicornio</th>
-            <th>Decoracion minecraft</th>
-            <th>Decoracion infantil </th>
-        </tr>
-        <tr>
-            <td>
-                <img src="https://images-na.ssl-images-amazon.com/images/I/719hX7nUHPL._AC_UL600_SR600,400_.jpg" alt="unicornio" width="250px" height="150px" id="unicornio"><br>
-                <label for="unicornio">Precio------$30USD</label><br>
-            </td>
+    
+    <div class="containerSabores">
+        <ul class="menu">
+          <li>Minecraft ...................$100</li>
+          <li>Numeros .................. $5</li>
+          <li>Crema pastelera....... $5</li>
+          <li>velas .........................$2</li>
+          <li>figuras .......................$45</li>
+          <li>Cerezas ....................$5</li>
+          <li>marcos ......................$15</li>
+        </ul>
+        <img class="imgPastel" src="https://images-na.ssl-images-amazon.com/images/I/71rwF5pmmbL._AC_UL600_SR600,400_.jpg"/>
+    </div>
 
-            <td>
-                <img src="https://images-na.ssl-images-amazon.com/images/I/71rwF5pmmbL._AC_UL600_SR600,400_.jpg" alt="minecraft" width="250px" height="150px" id="minecraft"><br>
-                <label for="minecraft">Precio------$25USD</label><br>
-            </td>
-
-            <td>
-                <img src="https://images-na.ssl-images-amazon.com/images/I/61eH0bj8zmL._AC_UL300_SR300,200_.jpg" alt="infantil" width="250px" height="150px" id="infantil"><br>
-                <label for="infantil">Precio------$20USD</label><br>
-            </td>
-        </tr>
-      
-    </table><br>
 </section>
 
 
@@ -82,28 +60,66 @@
 
     <form>
 
-        <h3>Sabor</h3>
         
-        <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
-        <label for="chocolate">Chocolate</label><br>
-
-        <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
-        <label for="vainilla">Vainilla</label><br>
-
-        <input type="checkbox" id="fresa"  name="fresa" value="fresa">
-        <label for="fresa">Fresa</label><br>
-
-
-        <h3>Decoraciones</h3>
         
-        <input type="checkbox" id="unicornio" name="unicornio" value="unicornio">
-        <label for="unicornio">Unicornio</label><br>
+        <div class="seleccionar">
 
-        <input type="checkbox" id="minecraft" name="minecraft" value="minecraft">
-        <label for="minecraft">Minecraft</label><br>
+            <div>
 
-        <input type="checkbox" id="infantil"  name="infantil" value="infantil">
-        <label for="infantil">Infantil</label><br>
+                <h3>Sabor</h3>
+
+                <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                <label for="chocolate">Chocolate</label><br>
+
+                <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+                <label for="vainilla">Vainilla</label><br>
+
+                <input type="checkbox" id="fresa"  name="fresa" value="fresa">
+                <label for="fresa">Fresa</label><br>
+
+                <input type="checkbox" id="mora"  name="mora" value="mora">
+                <label for="mora">Mora</label><br>
+
+                <input type="checkbox" id="manzana"  name="manzana" value="manzana">
+                <label for="manzana">Manzana</label><br>
+
+                <input type="checkbox" id="frambuesa"  name="frambuesa" value="frambuesa">
+                <label for="frambuesa">Frambuesa</label><br>
+
+                <input type="checkbox" id="tresLeches"  name="tresLeches" value="tresLeches">
+                <label for="tresLeches">Tres leches</label><br>
+
+            </div>
+
+
+            <div>
+
+                <h3>Decoraciones</h3>
+                
+                <input type="checkbox" id="numeros" name="numeros" value="numeros">
+                <label for="numeros">Numeros</label><br>
+
+                <input type="checkbox" id="minecraft" name="minecraft" value="minecraft">
+                <label for="minecraft">Minecraft</label><br>
+
+                <input type="checkbox" id="velas"  name="velas" value="velas">
+                <label for="velas">Velas</label><br>
+
+                <input type="checkbox" id="crema"  name="crema" value="crema">
+                <label for="crema">Crema de pastel</label><br>
+
+                <input type="checkbox" id="figuras"  name="figuras" value="figuras">
+                <label for="figuras">Figuras</label><br>
+
+                <input type="checkbox" id="cerezas"  name="cerezas" value="cerezas">
+                <label for="cerezas">Cerezas</label><br>
+
+                <input type="checkbox" id="marcos"  name="marcos" value="marcos">
+                <label for="marcos">Marcos</label><br>
+
+            </div>
+
+        </div>
 
         <h3>Informacion</h3><br>
 
@@ -122,16 +138,30 @@
         <label for="descripcion">Descripcion del pedido:</label><br>
         <input type="text" id="descripcion" name="descripcion"><br><br>
 
+        <div class="botones">
         <input type="submit" value="Comprar">
         <input type="reset" value="borrar pedido" >
-
+        </div>
     
     </form>
 
     <footer><br>
-        <p>Direccion: Av 41 Oeste #9-21 Cali-Montebello</p>
-        <p>horarios de atención: 8:00am - 5:00pm</p>
-        <p>Telefono: 8978413151</p>
+        <table>
+            <tr>
+              <td><h4>D I R E C C I Ó N </h4></td>
+              <td><h4>T E L É F O N O </h4></td>
+              <td><h4>H O R A R I O S </h4></td>
+            </tr>
+            <tr>
+              <td><p>Av 41 Oeste #9-21 Cali-Montebello</p></td>
+              <td><p>Telefono: 8978413151</p></td>
+              <td><p>horarios de atención: 8:00am - 5:00pm</p></td>
+            </tr>
+          </table>
+
+        
+        
+        
     </footer>
 
     

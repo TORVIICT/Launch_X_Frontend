@@ -10,13 +10,11 @@ body{
     padding: 0%;
 }
 
-footer{
-    background-color:antiquewhite;
-    height: 130px;
-    text-align: center;
-}
+
 .titulo{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -34,39 +32,126 @@ h1{
     color:lightpink;
     text-align: center;
     border-radius: 50px;
-    justify-items: center;
-    justify-content: center;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    Padding-left: 50px;
 }
 
 h2{
     font-size: 40px;
+    color:lightpink;
     margin-left: 400px;
     margin-top: 50px;
 }
 
 
 .tabla_sabores{
-    margin-left: 500px;
-    margin-bottom: 50px;
-    
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 .tabla_decoraciones{
-    margin-left: 500px;
-    margin-bottom: 50px;
     display: flex;
-    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 form{
     text-align: center;
-    background-color: azure;
+    background-color:antiquewhite;
     padding-bottom: 20px;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 600px;
+    margin-left: 600px;
     margin-bottom: 60px;
     border-radius: 30px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+footer{
+    background-color:antiquewhite;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+td{
+    width: 500px;
+}
+
+th{
+    width: 100px;
+}
+
+.containerSabores{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size: 20px;
+}
+
+.imgPastel{
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+
+.seleccionar{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+input[type=text] and [type=number] and [type=email] {
+    width: 200px;
+    box-sizing: border-box;
+    
+  }
+
+input{
+    border-radius: 15px;
+    padding: 5px;
+    border-color: gainsboro;
+}
+
+input[type=submit]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+input[type=reset]{
+    background-color: red;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+li{
+    text-align: justify;
+}
+
+.barra{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Padding-left: 30px;
 
 }
 
-
+.barra a{
+    padding-left: 50px;
+    color: lightpink;
+    text-decoration: none;
+}
