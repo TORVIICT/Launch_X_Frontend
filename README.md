@@ -23,7 +23,6 @@ El cliente solicita una plataforma en la cual se automatizan los procesos de dem
 - Diseño responsive para mejor visualizacion en Moviles.
 - Paleta de color Azul mariono y blanco (Abierto a sugerencias).
 
-![image](https://user-images.githubusercontent.com/90350471/197064694-00924e28-9843-4458-83f9-b86a0e064ed2.png)
 
 
 ## **2. Buyer Persona.**
@@ -38,7 +37,11 @@ El cliente ideal del proyecto, que aqui se representa como un abogado y una empl
 
 https://miro.com/app/board/uXjVPNt5Ars=/?share_link_id=454004744933
 
-## **4. UI.**
+## **4. UX.**
+
+https://www.figma.com/file/WyhgtJklkJ2G8WrEFCjDpE/ABOGABOT-UX?node-id=0%3A1
+
+## **5. UI.**
 
 Para el inicio de la pagina, inicia la sesion, registro de un nuevo usuario, Interfaz de usuario, Interfaz de admin Y Sistema de pagos.
 
