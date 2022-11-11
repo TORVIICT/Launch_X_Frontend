@@ -13,7 +13,8 @@ img {
 .nav {
   position: absolute;
   top: 0;
-  padding: 40px 120px;
+  padding: 40px 150px;
+  height: 170px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,9 +28,9 @@ img {
 }
 
 .nav_title {
-  font-size: 2em;
+  font-size: 40px;
   font-weight: bold;
-  color: #0066ff;
+  color: #0834c4;
   cursor: pointer;
   user-select: none;
 }
@@ -48,6 +49,7 @@ img {
 .nav_Lst-a {
   font-weight: bolder;
   color: #808080;
+  font-size: 25px;
 }
 
 .nav_Lst-a:hover {
@@ -56,8 +58,8 @@ img {
 
 .nav_List-btn,
 .home_boton {
-  background-color: #0066ff;
-  padding: 10px 20px;
+  background-color: #2024fc;
+  padding: 25px 35px;
   color: white;
   border-radius: 7px;
   font-weight: bold;
@@ -101,7 +103,7 @@ img {
 /* HOME */
 
 .home {
-  margin-top: 120px;
+  margin-top: 200px;
   margin-left: 100px;
   padding: 20px;
   /* border:1px solid red; */
@@ -151,7 +153,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .home_cuadro-t {
@@ -159,16 +161,21 @@ img {
   color: #1f3e72;
   display: flex;
   align-items: center;
+  font-size: 40px;
 }
 
 .home_cuadro-t > img {
   padding-right: 10px;
+  width: 40px;
+  border-radius: 20%;
+  
 }
 
 .home_cuadro_boxLts {
   display: flex;
   padding: 30px 0px 30px 10px;
-  width: 55vw;
+  width: 1200px;
+  height: 120px;
   background: rgba(255, 255, 255, 0.69);
   border-radius: 6px;
   box-shadow: 2px 6px 20px rgb(0, 102, 255, 0.1);
@@ -178,9 +185,10 @@ img {
 }
 
 .home_cuadro_boxLts > img {
-  height: 50%;
+  height: 40%;
   padding: 0 7px;
   margin-left: 40px;
+  border-radius: 25%;
 }
 
 .home_cuadro_Lts {
@@ -198,11 +206,14 @@ img {
 }
 
 .home_boton {
-  padding: 0px 5%;
-  margin-left: 70px;
+  font-size: 28px;
+  margin-left: 150px;
+  margin-top: 20px;
   letter-spacing: 0.8px;
   user-select: none;
   cursor: pointer;
+  padding: 4px 50px;
+  height: 80px;
 }
 
 .home_boton:hover {
@@ -219,9 +230,9 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 120px 50px;
+  margin: 90px 50px;
   background-color: white;
-  margin-top: 300px;
+  margin-top: 100px;
   padding: 60px;
 }
 
@@ -319,22 +330,23 @@ img {
 .joven_boxInfo>h4 {
   color: #1f3e72;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  margin-bottom: 50px;
 }
 
 .senorita_boxInfo-titles > p,
 .joven_boxInfo>p {
   color: #6d7b93;
   font-weight: 500;
-  font-size: 1.3rem;
-  margin: 2rem 0 2.5rem;
+  font-size: 1.6rem;
   width: 80%;
+  
 }
 
 .senorita_details {
   border: 2px solid #f5f6fe;
   border-radius: 7px;
-  width: 50%;
+  width: 90%;
   padding: .8rem;
   cursor: pointer;
   margin-bottom: 1.2rem;
